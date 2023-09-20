@@ -20,6 +20,9 @@ namespace ConsoleApp1
             //Console.WriteLine(DateOnly.FromDateTime(dateTime))
             DateTime dateFromString = DateTime.Parse("14/09/2026"); // or "2026/09/14"  => "yy/mm/dd" or "dd/mm/yy"
             Console.WriteLine(dateFromString);
+
+            string currentDate1 = DateTime.Now.ToString("MM/dd/yyyy");
+            string currentDate3 = DateTime.Now.ToString("MMMM dd");
         }
     }
 }
